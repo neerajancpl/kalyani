@@ -28,6 +28,7 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+Toast.makeTest(MainActivity.this,"ok",Toast.LENGTH_LONG).show();
         edittextEmailAddress = (EditText)findViewById(R.id.email_address);
         edittextEmailSubject = (EditText)findViewById(R.id.email_subject);
         edittextEmailText = (EditText)findViewById(R.id.email_text);
